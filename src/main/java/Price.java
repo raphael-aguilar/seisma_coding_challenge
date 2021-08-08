@@ -13,8 +13,21 @@ public class Price {
         this.cents = cents;
     }
 
-    public boolean isEquals(Price other) {
+    public Price(Price other) {
+        this.dollars = other.getDollars();
+        this.cents = other.getCents();
+    }
+
+    public boolean isEqual(Price other) {
         return (this.dollars == other.dollars && this.cents == other.cents);
+    }
+
+    public int getDollars() {
+        return dollars;
+    }
+
+    public int getCents() {
+        return cents;
     }
 
     public String toString() {
@@ -31,23 +44,46 @@ public class Price {
         this.dollars += dollars;
     }
 
+    public void subtractDollars(int dollars) {
+        this.dollars -= dollars;
+    }
+
     public void addCents(int cents) {
         this.cents += cents;
         this.balance();
     }
 
-    public void plus(Price price) {
-        this.dollars += price.dollars;
-        this.cents += price.cents;
-
-        this.balance();
+    public void subtractCents(int cents) {
+        this.cents -= cents;
+        if (this.cents < 0) {
+            this.subtractDollars(1);
+            this.addCents(100);
+        }
     }
 
-    public String getDollarsRounded() {
+    public Price plus(Price price) {
+        Price output = new Price(this);
+
+        output.addDollars(price.getDollars());
+        output.addCents(price.getCents());
+        output.balance();
+
+        return output;
+    }
+
+    public Price subtract(Price other) {
+        Price output = new Price(this);
+        output.subtractDollars(other.getDollars());
+        output.subtractCents(other.getCents());
+        return output;
+
+    }
+
+    public int getDollarsRounded() {
         if (this.cents >= 50) {
-            return Integer.toString (this.dollars + 1);
+            return this.dollars + 1;
         } else {
-            return Integer.toString((this.dollars));
+            return this.dollars;
         }
     }
 }
