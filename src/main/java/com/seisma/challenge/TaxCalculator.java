@@ -1,3 +1,5 @@
+package com.seisma.challenge;
+
 public class TaxCalculator {
 
     private static final int firstBracket = 18200;

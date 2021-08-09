@@ -1,3 +1,5 @@
+import com.seisma.challenge.IncomeCalculator;
+import com.seisma.challenge.Price;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

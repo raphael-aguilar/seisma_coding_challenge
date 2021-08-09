@@ -1,3 +1,5 @@
+package com.seisma.challenge;
+
 public class Employee {
 
     private String firstName;

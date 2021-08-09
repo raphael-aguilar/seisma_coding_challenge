@@ -1,3 +1,5 @@
+package com.seisma.challenge;
+
 public class Price {
 
     private int dollars;

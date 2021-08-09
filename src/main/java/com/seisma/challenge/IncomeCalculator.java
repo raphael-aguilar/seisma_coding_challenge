@@ -1,3 +1,5 @@
+package com.seisma.challenge;
+
 public class IncomeCalculator {
 
     public static Price calculateIncome(int yearlyIncome) {

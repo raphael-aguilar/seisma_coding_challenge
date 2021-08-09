@@ -1,3 +1,5 @@
+import com.seisma.challenge.Price;
+import com.seisma.challenge.TaxCalculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
