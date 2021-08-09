@@ -7,7 +7,8 @@ A sample file is in the root directory to use, and to base any other created CSV
 
 In the root directory, build the package with command `mvn package`. This will run the test and compile to a JAR file allowing you to run.
 
-Run the program from the root directory in a command line using `java -cp target\<created jar file> com.payslip.App <optional_input_name> <optional_output_name>`. 
+Run the program from the root directory in a command line using `java -cp target\<created jar file> com.payslip.App <optional_input_name> <optional_output_name>`
+(note your command line java will need to be version 11). 
 The input name by default is input.csv, and the output by default is output.csv and both of these values are optional.
 
 After running this will generate the output CSV of the payment slip information.
