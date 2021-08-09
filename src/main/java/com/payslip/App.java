@@ -1,4 +1,4 @@
-package com.seisma.challenge;
+package com.payslip;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;
@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class App {
 
     private static final String OUTPUT_HEADER = "name, pay period, gross income, income tax, net income, super";
 

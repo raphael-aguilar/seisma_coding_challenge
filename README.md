@@ -1,6 +1,6 @@
 ### **How to Run**
 
-
+You will need Java 11 installed and maven (I used maven 3.8.1).
 
 ### **Assumptions**
 
@@ -16,7 +16,7 @@
 
 * Input csv always has a header row
 
-* Assume  csv input is delimited by a single "," with no spaces
+* Assume csv input is delimited by a single "," with no spaces
 
 ### **Design Choices**
 

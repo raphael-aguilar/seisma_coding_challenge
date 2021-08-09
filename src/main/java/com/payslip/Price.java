@@ -1,4 +1,4 @@
-package com.seisma.challenge;
+package com.payslip;
 
 public class Price {
 

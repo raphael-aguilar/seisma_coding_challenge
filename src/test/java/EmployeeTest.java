@@ -1,4 +1,4 @@
-import com.seisma.challenge.Employee;
+import com.payslip.Employee;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
