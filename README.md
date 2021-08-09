@@ -4,13 +4,19 @@
 
 ### **Assumptions**
 
-* Assume the yearly salary is a whole number
+* Assume all inputs are whole numbers
 
-* Assume gross income is to always be rounded down
+* Gross income is to always be rounded down
 
-* Assume payment period is always one month
+* Payment period is always one month
 
-* Assume all input data is valid
+* All input data is valid
+
+* Input super rate has % at end to remove
+
+* Input csv always has a header row
+
+* Assume  csv input is delimited by a single "," with no spaces
 
 ### **Design Choices**
 
