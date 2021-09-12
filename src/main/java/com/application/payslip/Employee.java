@@ -1,5 +1,7 @@
 package com.application.payslip;
 
+import org.json.simple.*;
+
 public class Employee {
 
     private String firstName;
@@ -46,5 +48,16 @@ public class Employee {
         return String.join(",", data);
     }
 
+    public JSONObject toJson() {
+        JSONObject output = new JSONObject();
 
+        output.put("Name", firstName + " " + lastName);
+        output.put("Pay Period", paymentPeriod);
+        output.put("Gross Income", Integer.toString(grossIncome.getDollars()));
+        output.put("Income Tax", Integer.toString(monthlyIncomeTax.getDollarsRounded()));
+        output.put("Net Income", Integer.toString(netIncome.getDollars()));
+        output.put("Super", Integer.toString(superVal.getDollars()));
+
+        return output;
+    }
 }
