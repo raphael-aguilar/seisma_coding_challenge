@@ -1,3 +1,18 @@
+### **New Info After Refactor**
+
+This project has been refactored to work with Spring Boot, and works by running the Spring Boot application and using the endpoint `http://localhost:8080/api/v1/payslip`
+
+You will need to fill in the body to calculate the information of one payslip. To get a proper response, here is a sample body to use and manipulate:
+`{
+"firstname": "John",
+"lastname": "Smith",
+"annual salary": "18400",
+"super rate": "50",
+"payment start date": "01 March – 31 March"
+}`
+
+The old functionality of running the program with an input csv still exists but doesn't interfere with the Spring Boot application.
+
 ### **How to Run**
 
 You will need Java 11 installed and maven (I used maven 3.8.1).
