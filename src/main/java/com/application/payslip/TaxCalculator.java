@@ -1,4 +1,4 @@
-package com.payslip;
+package com.application.payslip;
 
 public class TaxCalculator {
 

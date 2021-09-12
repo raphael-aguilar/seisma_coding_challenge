@@ -1,4 +1,6 @@
-import com.payslip.Price;
+package com.application.payslip;
+
+import com.application.payslip.Price;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

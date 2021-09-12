@@ -1,5 +1,7 @@
-import com.payslip.Price;
-import com.payslip.TaxCalculator;
+package com.application.payslip;
+
+import com.application.payslip.Price;
+import com.application.payslip.TaxCalculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
