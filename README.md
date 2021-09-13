@@ -1,6 +1,6 @@
 ### **New Info After Refactor**
 
-This project has been refactored to work with Spring Boot, and works by running the Spring Boot application and using the endpoint `http://localhost:8080/api/v1/payslip`
+This project has been refactored to work with Spring Boot, and works by running the Spring Boot application and using a get request on this endpoint `http://localhost:8080/api/v1/payslip`
 
 You will need to fill in the body to calculate the information of one payslip. To get a proper response, here is a sample body to use and manipulate:
 `{
