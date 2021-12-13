@@ -1,4 +1,4 @@
-package com.application.payslip;
+package example.application.payslip;
 
 public class IncomeCalculator {
 

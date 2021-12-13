@@ -1,4 +1,4 @@
-package com.application.payslip;
+package com.example.application;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;

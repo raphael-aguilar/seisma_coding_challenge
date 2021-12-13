@@ -1,6 +1,6 @@
 package com.application.payslip;
 
-import com.application.payslip.Employee;
+import example.application.payslip.Employee;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
