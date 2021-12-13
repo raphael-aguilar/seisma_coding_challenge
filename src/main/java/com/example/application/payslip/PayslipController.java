@@ -1,4 +1,4 @@
-package com.example.application;
+package com.example.application.payslip;
 
 import org.springframework.web.bind.annotation.*;
 
