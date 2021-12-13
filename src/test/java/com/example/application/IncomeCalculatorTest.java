@@ -1,7 +1,5 @@
-package com.application.payslip;
+package com.example.application;
 
-import example.application.payslip.IncomeCalculator;
-import example.application.payslip.Price;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

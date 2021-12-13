@@ -1,4 +1,4 @@
-package example.application.payslip;
+package com.example.application;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

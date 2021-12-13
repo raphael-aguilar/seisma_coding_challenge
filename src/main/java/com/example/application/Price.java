@@ -1,4 +1,4 @@
-package example.application.payslip;
+package com.example.application;
 
 public class Price {
 
