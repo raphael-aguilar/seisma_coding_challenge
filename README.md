@@ -1,3 +1,10 @@
+### Project Now Dockerised
+
+Use the below commands to run the project using docker.
+
+`docker build -t <image_name> .`
+`docker run -p 8080:8080 <image_name>`
+
 ### **New Info After Refactor**
 
 This project has been refactored to work with Spring Boot, and works by running the Spring Boot application and using a get request on this endpoint `http://localhost:8080/api/v1/payslip`
