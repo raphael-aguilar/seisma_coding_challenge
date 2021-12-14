@@ -1,0 +1,30 @@
+{
+  "tax_brackets":
+  [
+    {
+      "min_income": 0,
+      "base_tax": 0,
+      "additional_tax": "0"
+    },
+    {
+      "min_income": 18200,
+      "base_tax": 0,
+      "additional_tax": "19"
+    },
+    {
+      "min_income": 37000,
+      "base_tax": 3572,
+      "additional_tax": "32.5"
+    },
+    {
+      "min_income": 87000,
+      "base_tax": 19822,
+      "additional_tax": "37"
+    },
+    {
+      "min_income": 180000,
+      "base_tax": 54232,
+      "additional_tax": "45"
+    }
+  ]
+}
